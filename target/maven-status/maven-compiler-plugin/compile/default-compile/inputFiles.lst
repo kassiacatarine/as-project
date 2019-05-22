@@ -1,10 +1,12 @@
 /home/akira/works/as/as-project/src/main/java/br/edu/utfpr/asproject/entities/Lesson.java
+/home/akira/works/as/as-project/src/main/java/br/edu/utfpr/asproject/repositories/AbsenceRepository.java
 /home/akira/works/as/as-project/src/main/java/br/edu/utfpr/asproject/enums/ESituation.java
 /home/akira/works/as/as-project/src/main/java/br/edu/utfpr/asproject/entities/Absence.java
 /home/akira/works/as/as-project/src/main/java/br/edu/utfpr/asproject/entities/Schedule.java
 /home/akira/works/as/as-project/src/main/java/br/edu/utfpr/asproject/AsProjectApplication.java
 /home/akira/works/as/as-project/src/main/java/br/edu/utfpr/asproject/entities/Teacher.java
 /home/akira/works/as/as-project/src/main/java/br/edu/utfpr/asproject/entities/Reason.java
+/home/akira/works/as/as-project/src/main/java/br/edu/utfpr/asproject/services/AbsenceService.java
 /home/akira/works/as/as-project/src/main/java/br/edu/utfpr/asproject/enums/EReason.java
 /home/akira/works/as/as-project/src/main/java/br/edu/utfpr/asproject/enums/EWeek.java
 /home/akira/works/as/as-project/src/main/java/br/edu/utfpr/asproject/entities/Procedure.java

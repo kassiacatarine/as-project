@@ -8,6 +8,7 @@ br/edu/utfpr/asproject/enums/EReason.class
 br/edu/utfpr/asproject/entities/Schedule.class
 br/edu/utfpr/asproject/entities/Procedure.class
 br/edu/utfpr/asproject/entities/Schedule$ScheduleBuilder.class
+br/edu/utfpr/asproject/repositories/AbsenceRepository.class
 br/edu/utfpr/asproject/entities/Teacher$TeacherBuilder.class
 br/edu/utfpr/asproject/entities/Reason.class
 br/edu/utfpr/asproject/entities/Absence.class
@@ -18,4 +19,5 @@ br/edu/utfpr/asproject/AsProjectApplication.class
 br/edu/utfpr/asproject/enums/EWeek.class
 br/edu/utfpr/asproject/entities/ShiftSchedule.class
 br/edu/utfpr/asproject/entities/Absence$AbsenceBuilder.class
+br/edu/utfpr/asproject/services/AbsenceService.class
 br/edu/utfpr/asproject/entities/Discipline$DisciplineBuilder.class

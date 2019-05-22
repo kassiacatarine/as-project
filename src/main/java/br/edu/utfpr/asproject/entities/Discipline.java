@@ -6,7 +6,6 @@
 package br.edu.utfpr.asproject.entities;
 
 import java.io.Serializable;
-import java.util.List;
 import java.util.Set;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -35,7 +34,7 @@ public class Discipline implements Serializable {
     private Long id;
     private String name;
     @ManyToMany
-    private List<Schedule> schedules;
+    private Set<Schedule> schedules;
     @ManyToOne
     private Teacher teacher;
     @OneToMany(mappedBy = "discipline")
