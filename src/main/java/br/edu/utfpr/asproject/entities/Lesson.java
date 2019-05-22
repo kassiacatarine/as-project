@@ -3,9 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.edu.utfpr.entities;
+package br.edu.utfpr.asproject.entities;
 
+import java.io.Serializable;
 import java.util.Date;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -19,10 +26,15 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Lesson {
+@Entity
+public class Lesson implements Serializable {
 
+    @Id
+    @GeneratedValue
     private Long id;
     private String name;
+    @Temporal(TemporalType.DATE)
     private Date date;
+    @ManyToOne
     private Discipline discipline;
 }
