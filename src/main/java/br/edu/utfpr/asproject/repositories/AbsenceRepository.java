@@ -12,6 +12,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
  *
  * @author akira
  */
+
 public interface AbsenceRepository extends JpaRepository<Absence, Long> {
 
 }

@@ -12,6 +12,10 @@ import br.edu.utfpr.asproject.repositories.AbsenceRepository;
  *
  * @author akira
  */
+/*
+    Pode ser utilizado o padrão Factory Method para reduzir
+    dependência das classes e diminuir a manutenibilidade do código.
+ */
 public class AbsenceService {
 
     private AbsenceRepository absenceRepository;

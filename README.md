@@ -13,3 +13,4 @@ or build and clean
 ## Run project
 
 java -cp target/as-project-1.0-SNAPSHOT.jar br.edu.utfpr.App
+
